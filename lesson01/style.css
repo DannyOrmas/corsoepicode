@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#logo{
+    width: 10%;
+    margin-left: 43%;
+}
+#nav{
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgba(252, 245, 245, 0.959);
+    padding: 10px;
+    border-top: 2px solid #ff9900
+}
+
+#nav p{
+    font-size: 25px;
+    color: rgb(40, 96, 37);
+}
+#nav p span{
+    font-weight: 900;
+}
+.container{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    height: 600px;
+    width:600px;
+    margin: auto;
+}
+
+.image-focaccia {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit:cover;
+
+}
+
+h2 {
+    text-align: left;
+    margin-top: 30px;
+    color:rgb(234, 86, 28);
+    font-size: 20px;
+    font-weight: 100;
+    
+} 
+
+.Fresh-container {
+    text-align: left;
+    color: rgba(20, 74, 223, 0.853);
+    font-size: 20px;
+    text-decoration: underline
+    
+    
+}
+
+#Ingredienti{
+    text-align: left;
+    font-size: 40px;
+    margin-right: 100%;
+    padding-top: 20px;
+}
+
+#linea{
+    text-align: left;
+    font-size: 22px;
+    padding-top: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+ul{
+    text-align: left;
+    font-size: 20px;
+    font-family: initial;
+
+}
+
+#topping{
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    display: contents;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#metodo{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: initial;
+}
+#Make{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5{
+    padding-inline: 30px;
+    font-size: 20px;
+    margin-top: auto;
+    font-family: initial;
+    font-weight: 200;
+}
+
+#Simply{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: initial ;
+}
+
+span{
+    text-decoration: underline;
+    color: rgb(40, 149, 120);
+}
