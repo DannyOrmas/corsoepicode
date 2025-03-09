@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    width: 200px;
+    
+}
+ 
+.nav-item {
+    color: white;
+}
+
+.nav-kids{
+    color: grey;
+    font-size: 25px;
+    color: white;
+}
+
+
+.search {
+   color: white;
+   font-size: 20px;
+}
+
+.shows {
+    color: white;
+}
+
+.dropdown {
+    color: white;
+}
+
+.originals {
+    padding-left: 39px;
+}
+
+
+.swiper-wrapper img {
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+ }
+
+ .swiper-slide {
+   text-align: center;
+    padding: 2rem;
+ }
+
+
+ .originals h2 {
+    color: white;
+    margin-top: 1rem;
+ }
+
+ .movie-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ }
+
+.swiper-slide:hover .movie-card {
+    animation: scaleUpAndDown 1s ease-in-out ;
+}
+
+
+ .swiper-slide {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    top: 10px;
+ }
+
+ @keyframes scaleUpAndDown {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+ }
+
+ @media (min-width: 768px) {
+    .swiper-slide {
+        height: 30
+        0px;
+    }
+ }
+
+ .icon-logo {
+    font-size: 50px;
+    margin-top: 150px;
+    
+ }
+
+
+ .btn-service {
+    background-color: black;
+    color : white;
+    padding: 5px;
+    border-color: white;
+ }
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
