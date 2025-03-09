@@ -11,8 +11,10 @@ header {
    background-image: url( https://images.pexels.com/photos/5739122/pexels-photo-5739122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
    background-repeat: no-repeat ;
    background-clip: cover;
+   background-size: cover;
    color: white;
    padding: 1rem 3rem;
+   
 }
 
 nav {
@@ -30,7 +32,7 @@ nav {
 .item {
     text-decoration: none;
     padding: 1rem 2rem;
-    color: black;
+    color: white;
 }
 
 .item:hover {
@@ -50,13 +52,22 @@ nav {
     
 }
 
+.hero-tagline {
+    font-size: 60px;
+    transform: translateX(-120%);
+    transition: transform .5s ease 1s;
+}
+
 .hero-title {
     font-size: 60px;
-    
+    transform: translateX(-120%);
+    transition: transform .5s ease 1.5s;
 }
 
 .hero-descr {
     font-size: 16px;
+    transform: translateX(-120%);
+    transition: transform .5s ease 2s;
     
 }
 
@@ -74,6 +85,16 @@ nav {
     position: static;
     bottom: 20px;
 }
+
+.contact-us {
+    transform: translateX(-150%);
+    transition: transform .5s ease 2.6s;
+}
+
+.show-element {
+    transform: translateX(0);
+}
+
 
 .btn:hover {
    background-color: orange;

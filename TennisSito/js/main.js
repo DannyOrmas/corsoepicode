@@ -1,3 +1,21 @@
+const heroContent = document.querySelector('.hero-content');
+
+const heroContentChildrens = heroContent.childNodes;
+
+
+heroContentChildrens.forEach(child => {
+    if(child.nodeType === 1) {
+        child.classList.add('show-element');
+    };
+});
+
+
+
+
+
+
+
+
 const services = [
     {
         id: '01',
