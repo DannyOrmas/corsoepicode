@@ -1,0 +1,31 @@
+.card {
+    width: 300px;
+    height: 100%;
+}
+
+
+.card-img-top {
+    padding: 30px;
+    object-fit: cover;
+} 
+
+.nav-social-links a ion-icon {
+    color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background: lightgrey;
+
+    transition: all 100ms linear;
+}
+
+.nav-social-links a ion-icon:hover {
+    color: white;
+    background-color: grey;
+}
+
+
+
+.hidden {
+    display: none !important;
+}
